@@ -64,7 +64,7 @@ p{
 }
 
 .contact{
-  background-image: url(./public/GreenCocktail.jpg);
+  background-image: url(../public/GreenCocktail.jpg);
   text-align:center;
   padding-top:8vh;
 }
