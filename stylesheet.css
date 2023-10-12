@@ -1,0 +1,139 @@
+body{
+  color:aliceblue;
+  font-family:sans-serif;
+}
+
+.container{
+  overflow:auto;
+  scroll-snap-type:y mandatory;
+  height:100vh;
+}
+
+section {
+  height:100vh;
+  scroll-snap-align:start;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center center;
+}
+
+ul.menu-icon {
+  background-color: black;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px 0;
+}
+
+.hero{
+  background-image: url(./public/BarCounter.jpg);
+  text-align:center;
+  padding-top:10vh;
+}
+
+.title {
+  font-family: 'Dancing Script', cursive;
+  font-size:7rem;
+  margin-bottom:2rem;
+}
+
+p{
+  line-height:1.7;
+  font-size:1.125rem;
+}
+
+.menu{
+  background-image: url(./public/cocktail-right.jpg);
+  display:flex;
+  align-items:center;
+}
+.wrapper{
+  max-width:900px;
+  width:100%;
+  margin:0 auto;
+  padding: 0 1rem;
+}
+
+.menu-list tr {
+  font-size:1.125rem;
+  margin-bottom:.5rem;
+  line-height:1.7;
+}
+
+.menu-list td{
+  padding-left: 20px;
+}
+
+.contact{
+  background-image: url(./public/GreenCocktail.jpg);
+  text-align:center;
+  padding-top:8vh;
+}
+
+.btn{
+  background-color:rgb(74, 75, 96);
+  font-size:1.5rem;
+  color:aliceblue;
+  padding:1rem 3.5rem;
+  border-radius:6px;
+  display:inline-block;
+  margin:2rem 0 2.25rem;
+}
+
+.btn:hover{
+  background-color:rgba(74,75,96,0.8);
+}
+
+.contact-sns{
+  display:flex;
+  justify-content:center;
+  list-style:none;
+}
+
+.contact-sns a{
+  background-color:rgb(255, 255, 255);
+  width:3.75rem;
+  height:3.75rem;
+  display:inline-block;
+  margin:0.5rem;
+  border-radius:50%;
+  font-size:2rem;
+  padding:0.75rem 0 0  0.125rem;
+}
+
+.contact-sns a:hover{
+  background-color:rgba(255, 255, 255, 0.8);
+}
+
+
+
+/*Mobile-Size*/
+@media(max-width:700px){
+  .title{
+    font-size:4rem;
+  }
+
+  p{
+    padding:0 1rem;
+  }
+
+  p,
+  .menu-list li{
+    font-size:0.9rem;
+  }
+
+  .hero{
+    padding-top:12vh;
+  }
+
+  .menu-list tr{
+    font-size:0.6rem;
+  }
+
+  .menu-list th{
+    white-space:nowrap;
+  }
+
+  .menu-list td{
+    padding-left:5px;
+  }
+}
