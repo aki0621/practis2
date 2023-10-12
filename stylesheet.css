@@ -25,7 +25,7 @@ ul.menu-icon {
 }
 
 .hero{
-  background-image: url(./public/BarCounter.jpg);
+  background-image: url(/public/BarCounter.jpg);
   text-align:center;
   padding-top:10vh;
 }
