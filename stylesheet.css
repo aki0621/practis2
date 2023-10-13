@@ -25,7 +25,7 @@ ul.menu-icon {
 }
 
 .hero{
-  background-image: url(public/BarCounter.jpg);
+  background-image: url(BarCounter.jpg);
   text-align:center;
   padding-top:10vh;
 }
@@ -42,7 +42,7 @@ p{
 }
 
 .menu{
-  background-image: url(public/cocktail-right.jpg);
+  background-image: url(/cocktail-right.jpg);
   display:flex;
   align-items:center;
 }
@@ -64,7 +64,7 @@ p{
 }
 
 .contact{
-  background-image: url(public/GreenCocktail.jpg);
+  background-image: url(./GreenCocktail.jpg);
   text-align:center;
   padding-top:8vh;
 }
