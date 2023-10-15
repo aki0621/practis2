@@ -42,7 +42,7 @@ p{
 }
 
 .menu{
-  background-image: url(/cocktail-right.jpg);
+  background-image: url(cocktail-right.jpg);
   display:flex;
   align-items:center;
 }
@@ -64,7 +64,7 @@ p{
 }
 
 .contact{
-  background-image: url(./GreenCocktail.jpg);
+  background-image: url(GreenCocktail.jpg);
   text-align:center;
   padding-top:8vh;
 }
